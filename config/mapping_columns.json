@@ -1,0 +1,90 @@
+[
+  {
+    "width": 200,
+    "header": {
+      "en": "Path",
+      "es": "Rutas"
+    },
+    "note": {
+      "en": "A JSON pointer that identifies the OC4IDS field represented by the row.",
+      "es": "A JSON pointer that identifies the OC4IDS field represented by the row."
+    }
+  },
+  {
+    "width": 70,
+    "header": {
+      "en": "Type",
+      "es": "Tipo"
+    },
+    "note": {
+      "en": "The field's data type.",
+      "es": "The field's data type."
+    }
+  },
+  {
+    "width": 100,
+    "header": {
+      "en": "Title",
+      "es": "Título"
+    },
+    "note": {
+      "en": "The field's title.",
+      "es": "The field's title."
+    }
+  },
+  {
+    "width": 300,
+    "header": {
+      "en": "Description",
+      "es": "Descripción"
+    },
+    "note": {
+      "en": "The field's meaning.",
+      "es": "The field's meaning."
+    }
+  },
+  {
+    "width": 200,
+    "header": {
+      "en": "Mapping",
+      "es": "Mapear"
+    },
+    "note": {
+      "en": "The data element in your data sources that matches this field's description.",
+      "es": "The data element in your data sources that matches this field's description."
+    }
+  },
+  {
+    "width": 300,
+    "header": {
+      "en": "Example",
+      "es": "Ejemplo"
+    },
+    "note": {
+      "en": "An example value for the data element selected in the mapping column, from the '(Source) 2. Data elements' sheet.",
+      "es": "An example value for the data element selected in the mapping column, from the '(Source) 2. Data elements' sheet."
+    }
+  },
+  {
+    "width": 300,
+    "header": {
+      "en": "Notes",
+      "es": ""
+    },
+    "note": {
+      "en": "Notes about the mapping for this field, for example how you will calculate the fields value, or how you will convert your data element to the correct type.",
+      "es": "Notes about the mapping for this field, for example how you will calculate the fields value, or how you will convert your data element to the correct type."
+    }
+  },
+  {
+    "width": 600,
+    "header": {
+      "en": "CoST IDS Elements",
+      "es": "CoST IDS Elements"
+    },
+    "note": {
+      "en": "The CoST IDS elements to which this field relates. Only elements selected in the '(CoST) IDS Elements' sheet are shown.",
+      "es": "The CoST IDS elements to which this field relates. Only elements selected in the '(CoST) IDS Elements' sheet are shown."
+    }
+  }
+]

@@ -31,7 +31,7 @@ To learn more about using the template, see the [OC4IDS Field-Level Mapping Temp
 The template is generated from the OC4IDS schema and documentation using `manage.py create-template`.
 
 > [!TIP]
-> Not comfortable with using a local development environment? You can use the [Google Colab notebook]() to update the template for a new version of the OC4IDS schema.
+> Not comfortable with using a local development environment? You can use the [Google Colab notebook](https://colab.research.google.com/drive/1-W0scOa6EsE3fVWO8e2E8a2HlcMUtpYl#scrollTo=Fs9xOm7w9-vl) to update the template for a new version of the OC4IDS schema.
 
 ### Set up your development environment
 

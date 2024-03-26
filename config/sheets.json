@@ -109,7 +109,7 @@
           "es": "Identificación"
         },
         "note": {
-          "en": "(Optional) Whether the data source include(Optional) Whether the data source includes data related to the identification stage.s data related to the identification stage.",
+          "en": "Whether the data source includes data related to the identification stage.",
           "es": ""
         },
         "example": {

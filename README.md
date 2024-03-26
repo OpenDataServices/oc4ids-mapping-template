@@ -16,6 +16,8 @@ The template is available in the following versions and languages:
 
 ## How to use the template
 
+Throughout the template, yellow-shaded cells are for data entry and green-shaded cells are calculated values.
+
 1. Use the `(Source) 1. Systems` sheet to list your sources of infrastructure project data.
 1. Use the `(Source) 2. Fields` sheet to list all of the data elements within your data sources.
 1. Optionally, use the `(CoST) IDS Elements` sheet to select the elements of the [CoST IDS](https://standard.open-contracting.org/infrastructure/latest/en/cost/) that you want to map.

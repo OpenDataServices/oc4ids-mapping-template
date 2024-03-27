@@ -189,6 +189,9 @@ def create_template(version, staging, language, compatibility):
                 worksheet.write_comment(sheet["row_count"], col, note)
             sheet["row_count"] += 1
 
+        # Freeze header rows
+        worksheet.freeze_panes(sheet["row_count"], 0)
+
         # Add examples
         examples = [col["example"][language] for col in sheet["columns"] if "example" in col]            
         if len(examples) > 0:

@@ -180,7 +180,7 @@ def create_template(version, staging, language, compatibility):
               worksheet.write_url(sheet["row_count"], 0, readme_url[language], None, sheet["subtitle"][language])
           sheet["row_count"] += 1
 
-        # Add column headers
+        # Add column headers and freeze rows
         headers = [col["header"][language] for col in sheet["columns"] if "header" in col]
         notes = [col["note"][language] for col in sheet["columns"] if "note" in col]
         if len(headers) > 0:
@@ -188,9 +188,7 @@ def create_template(version, staging, language, compatibility):
             for col, note in enumerate(notes):
                 worksheet.write_comment(sheet["row_count"], col, note)
             sheet["row_count"] += 1
-
-        # Freeze header rows
-        worksheet.freeze_panes(sheet["row_count"], 0)
+            worksheet.freeze_panes(sheet["row_count"], 0)            
 
         # Add examples
         examples = [col["example"][language] for col in sheet["columns"] if "example" in col]            

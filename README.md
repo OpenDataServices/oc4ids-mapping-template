@@ -1,6 +1,6 @@
-#  Open Contracting for Infrastructure Data Standard (OC4IDS) Field-Level Mapping Template
+#  Open Contracting for Infrastructure Data Standard Field-Level Mapping Template
 
-Use this template to document your sources of infrastructure project data and to document how that data maps to OC4IDS - that is, identifying which [data elements](https://en.wikipedia.org/wiki/Data_element) within your data sources match which [OC4IDS fields](https://standard.open-contracting.org/infrastructure/latest/en/reference/schema/).
+Use this template to document your sources of infrastructure project data and to document how that data maps to the Open Contracting for Infrastructure Data Standard (OC4IDS) - that is, identifying which [data elements](https://en.wikipedia.org/wiki/Data_element) within your data sources match which [OC4IDS fields](https://standard.open-contracting.org/infrastructure/latest/en/reference/schema/).
 
 To learn more about OC4IDS, read its [documentation](https://standard.open-contracting.org/infrastructure/latest/en/).
 

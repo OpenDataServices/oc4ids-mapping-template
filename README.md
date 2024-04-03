@@ -18,8 +18,8 @@ The template is available in the following versions and languages:
 
 Throughout the template, yellow-shaded cells are for data entry and green-shaded cells are calculated values.
 
-1. Use the `(Source) 1. Systems` sheet to list your sources of infrastructure project data.
-1. Use the `(Source) 2. Fields` sheet to list all of the data elements within your data sources.
+1. Use the `(Source) 1. Data sources` sheet to list your sources of infrastructure project data.
+1. Use the `(Source) 2. Data elements` sheet to list all of the data elements within your data sources.
 1. Optionally, use the `(CoST) IDS Elements` sheet to select the elements of the [CoST IDS](https://standard.open-contracting.org/infrastructure/latest/en/cost/) that you want to map.
 1. Use the `(OC4IDS)` sheets to match OC4IDS fields to your data elements, to identify gaps in the data that you collect, and to identify data elements that do not match any fields or codes in OC4IDS.
 

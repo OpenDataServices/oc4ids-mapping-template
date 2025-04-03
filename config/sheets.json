@@ -2,11 +2,11 @@
   "readme": {
     "title": {
       "en": "README",
-      "es": "README"
+      "es": "LEÁME"
     },
     "subtitle": {
       "en": "To learn about the template and how to use it, read the README: https://github.com/OpenDataServices/oc4ids-mapping-template/blob/main/README.md",
-      "es": "To learn about the template and how to use it, read the README: https://github.com/OpenDataServices/oc4ids-mapping-template/blob/main/README.md"
+      "es": "Para aprender acerca de esta plantilla y como usarla, revise el LEÁME: https://github.com/OpenDataServices/oc4ids-mapping-template/blob/main/README.md"
     },
     "columns": [
       {
@@ -20,11 +20,11 @@
   "sources": {
     "title": {
       "en": "(Source) 1. Data sources",
-      "es": "(Source) 1. Data sources"
+      "es": "(Fuente) 1. Fuentes de los datos"
     },
     "subtitle": {
       "en": "Use this sheet to list the data sources for your OC4IDS implementation. Your data sources might be IT systems, like a project database; spreadsheets; or even paper records. An example is provided in the first row. You can use the OC4IDS Scoping Template to help you identify your data sources.",
-      "es": "Use this sheet to list the data sources for your OC4IDS implementation. Your data sources can be IT systems, like a project database; spreadsheets; or even paper records. An example is provided in the first row. You can use the OC4IDS Scoping Template to help you identify your data sources."
+      "es": "Use esta hoja para enlistar las fuentes de los datos  para su implementación del OC4IDS. Sus fuentes de datos pueden ser sistemas IT, como bases de datos de proyectos; hojas de cálculo; o incluso archivos en papel. Un ejemplo es proveído en la primera fila. Puede utilizar la Plantilla de Alcance del OC4IDS para ayudarle a identificar las fuentes de los datos."
     },
     "columns": [
       {
@@ -54,7 +54,7 @@
         },
         "example": {
           "en": "Infrastructure Monitoring System",
-          "es": "Infrastructure Monitoring System"
+          "es": "Sistema de Monitoreo de Infraestructura"
         }
       },
       {
@@ -99,7 +99,7 @@
         },
         "example": {
           "en": "Public Works Ministry",
-          "es": "Public Works Ministry"
+          "es": "Ministerio de Obras Públicas"
         }
       },
       {
@@ -144,7 +144,7 @@
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
@@ -159,7 +159,7 @@
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
@@ -181,7 +181,7 @@
         "width": 130,
         "header": {
           "en": "Maintenance",
-          "es": "Maintenance"
+          "es": "Mantenimiento"
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the maintenance stage.",
@@ -189,14 +189,14 @@
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
         "width": 130,
         "header": {
           "en": "Decommissioning",
-          "es": "Decommissioning"
+          "es": "Desmantelamie"
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the decommissioning stage.",
@@ -204,7 +204,7 @@
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
@@ -219,7 +219,7 @@
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
@@ -234,7 +234,7 @@
         },
         "example": {
           "en": "Public JSON API",
-          "es": "Public JSON API"
+          "es": "API publica con JSON"
         }
       }
     ]
@@ -389,18 +389,18 @@
   "ids": {
     "title": {
       "en": "(CoST) IDS Elements",
-      "es": "(CoST) IDS Elements"
+      "es": "(CoST) Elementos del IDS"
     },
     "subtitle": {
       "en": "Optionally, use this sheet to select the CoST IDS elements that you want to map. You can filter the (OC4IDS) mapping sheets to show only fields related to your selected elements.",
-      "es": "Optionally, use this sheet to select the CoST IDS elements that you want to map. You can filter the (OC4IDS) mapping sheets to show only fields related to your selected elements."
+      "es": "Opcionalmente, use esta hoja para seleccionar los elementos del CoST IDS que quiere mapear. Puede filtrar las hojas del mapeo (OC4IDS) para mostrar solo los campos relacionados con los elementos seleccionados."
     },
     "columns": [
       {
         "width": 250,
         "header": {
           "en": "Module",
-          "es": "Module"
+          "es": "Módulo"
         },
         "note": {
           "en": "The CoST IDS module to which this element belongs.",
@@ -411,7 +411,7 @@
         "width": 100,
         "header": {
           "en": "Level",
-          "es": "Level"
+          "es": "Nivel"
         },
         "note": {
           "en": "Whether the element relates to the project level or contract level of the CoST IDS.",
@@ -422,7 +422,7 @@
         "width": 100,
         "header": {
           "en": "Stage",
-          "es": "Stage"
+          "es": "Fase"
         },
         "note": {
           "en": "The stage of infrastructure project to which the element relates.",
@@ -433,7 +433,7 @@
         "width": 150,
         "header": {
           "en": "Title",
-          "es": "Title"
+          "es": "Título"
         },
         "note": {
           "en": "The title of the element.",
@@ -444,7 +444,7 @@
         "width": 300,
         "header": {
           "en": "Description",
-          "es": "Description"
+          "es": "Descripción"
         },
         "note": {
           "en": "The description of the element.",
@@ -455,7 +455,7 @@
         "width": 300,
         "header": {
           "en": "Fields",
-          "es": "Fields"
+          "es": "Campos"
         },
         "note": {
           "en": "The OC4IDS fields to which the element relates.",
@@ -466,7 +466,7 @@
         "width": 100,
         "header": {
           "en": "Map",
-          "es": "Map"
+          "es": "Mapeo"
         },
         "note": {
           "en": "Whether you want to map the OC4IDS fields related to this element.",
@@ -483,7 +483,7 @@
     },
     "subtitle": {
       "en": "Use this sheet to map your data elements to project-level OC4IDS fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `documents/title`, you must map `documents/id`.",
-      "es": "Use this sheet to map your data elements to project-level OC4IDS fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `documents/title`, you must map `documents/id`."
+      "es": "Use esta hoja para mapear los elementos a nivel de proyecto de los campos del OC4IDS. El campo en el esquema del OC4IDS, que cada fila representa, es identificado por su puntero de JSON. Los objetos están coloreados en gris y no necesitan ser mapeados directamente. Los campos requeridos están coloreados en rojo. Si usted mapea un campo en un objeto, usted debe mapear todos los campos requeridos que pertencen al mismo objeto.  Por ejemplo, si usted mapea `documents/title`, usted debe mapear `documents/id`."
     }
   },
   "contracts": {
@@ -494,7 +494,7 @@
     },
     "subtitle": {
       "en": "Use this sheet to map your data elements to OC4IDS contracting process fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `contractingProcesses/summary/documents/title`, you must map `contractingProcesses/summary/documents/id`.",
-      "es": "Use this sheet to map your data elements to OC4IDS contracting process fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `contractingProcesses/summary/documents/title`, you must map `contractingProcesses/summary/documents/id`."
+      "es": "Use esta hoja para mapear los elementos de datos a los campos del proceso de contratación del OC4IDS. El campo en el esquema del OC4IDS, que cada fila representa, es identificado por su puntero JSON. Los objetos están coloreados en gris y no necesitan ser mapeados directamente. Los campos requeridos están mapeados en rojo. Si usted mapea un campo en un objeto, usted debe mapear todos los campos requeridos que pertececen al mismo objeto. Por ejemplo, si usted mapea `contractingProcesses/summary/documents/title`, usted debe mapear `contractingProcesses/summary/documents/id`."
     }
   },
   "releases": {
@@ -505,7 +505,7 @@
     },
     "subtitle": {
       "en": "Use this sheet to map your data elements to OC4IDS linked release fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `documents/title`, you must map `documents/id`.",
-      "es": "Use this sheet to map your data elements to OC4IDS linked release fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `documents/title`, you must map `documents/id`."
+      "es": "Use esta hoja para mapear sus elementos de datos a los campos vinculados a las entregas del OC4IDS. El campo en el esquema del OC4IDS, que cada fila representa es identificada por su puntero del  JSON. Los objetos están coloreados en gris y no necesitan ser mapeados directamente. Los campos requeridos están mapeados en rojo. Si usted mapea un campo en un objeto, usted debe mapear  todo los campos requeridos que pertencen al mismo objeto. Por ejemplo, si usted mapea `documents/title`, usted debe mapear `documents/id`."
     }
   },
   "parties": {
@@ -516,7 +516,7 @@
     },
     "subtitle": {
       "en": "Use this sheet to map your data elements to OC4IDS parties fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. The fields in the parties array are repeated for each organization reference in the schema so that you can document different mappings for the different organization roles covered by the standard. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `parties/beneficialOwners/name`, you must map `parties/beneficialOwners/id`.",
-      "es": "Use this sheet to map your data elements to OC4IDS parties fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. The fields in the parties array are repeated for each organization reference in the schema so that you can document different mappings for the different organization roles covered by the standard. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `parties/beneficialOwners/name`, you must map `parties/beneficialOwners/id`."
+      "es": "Use esta hoja para mapear los elementos de datos a los campos de partes del  OC4IDS. El campo en el esquema del OC4IDS, que cada fila representa, es identificado por su puntero del JSON. Los campos en la matriz de partes son repetidos para cada organización referente en el esquema, por lo aue usted puede documentar diferentes mapeos para los diferentes roles de las organizaciones cubiertas por el estándar. Los objetos están coloreados en gris y no necesitan ser mapeados directamente. Los campos requeridos están coloreados en rojo.  Si usted mapea un campo en un objeto, usted debe mapear todos los campos requeridos que pertencen al mismo objeto. Por ejemplo, si usted mapea `parties/beneficialOwners/name`, usted debe mapear`parties/beneficialOwners/id`."
     }
   }
 }

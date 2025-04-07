@@ -20,7 +20,7 @@
   "sources": {
     "title": {
       "en": "(Source) 1. Data sources",
-      "es": "(Fuente) 1. Fuentes de los datos"
+      "es": "(Fuente) 1.Fuentes de los datos"
     },
     "subtitle": {
       "en": "Use this sheet to list the data sources for your OC4IDS implementation. Your data sources might be IT systems, like a project database; spreadsheets; or even paper records. An example is provided in the first row. You can use the OC4IDS Scoping Template to help you identify your data sources.",
@@ -35,7 +35,7 @@
         },
         "note": {
           "en": "A short identifier for this data source. The identifier is used to construct a unique identifier for each data element in the '(Source) 2. Data elements' sheet.",
-          "es": "A short identifier for this data source. The identifier is used to construct a unique identifier for each data element in the '(Source) 2. Data elements' sheet."
+          "es": "Un identificador corto para esta fuente de datos. El identificador se utiliza para construir un identificador único para cada elemento de datos en la hoja '(Fuente) 2.Hoja de elementos de datos."
         },
         "example": {
           "en": "inframonitor",
@@ -50,7 +50,7 @@
         },
         "note": {
           "en": "A name for this data source.",
-          "es": "A name for this data source."
+          "es": "Un nombre para esta fuente de datos."
         },
         "example": {
           "en": "Infrastructure Monitoring System",
@@ -65,7 +65,7 @@
         },
         "note": {
           "en": "(Optional) If the data source is an IT system purchased from a 3rd party vendor, the name of the vendor.",
-          "es": ""
+          "es": "(Opcional) Si la fuente de datos es un sistema informático adquirido a un proveedor externo, el nombre del proveedor."
         },
         "example": {
           "en": "Microsoft",
@@ -80,7 +80,7 @@
         },
         "note": {
           "en": "(Optional) A link to the data source or its documentation.",
-          "es": "(Optional) A link to the data source or its documentation."
+          "es": "(Opcional) Un enlace a la fuente de datos o su documentación."
         },
         "example": {
           "en": "http://inframonitor.gov.example",
@@ -95,7 +95,7 @@
         },
         "note": {
           "en": "(Optional) The organization or department that is responsible for the data source.",
-          "es": "(Optional) The organization or department that is responsible for the data source."
+          "es": "(Opcional) La organización o departamento responsable de la fuente de datos."
         },
         "example": {
           "en": "Public Works Ministry",
@@ -110,7 +110,7 @@
         },
         "note": {
           "en": "Whether the data source includes data related to the identification stage.",
-          "es": ""
+          "es": "Si la fuente de datos incluye datos relacionados con la etapa de identificación."
         },
         "example": {
           "en": "No",
@@ -125,7 +125,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the preparation stage.",
-          "es": "(Optional) Whether the data source includes data related to the preparation stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de preparación."
         },
         "example": {
           "en": "No",
@@ -140,7 +140,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the procurement stage.",
-          "es": "(Optional) Whether the data source includes data related to the procurement stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de adquisición."
         },
         "example": {
           "en": "Yes",
@@ -155,7 +155,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the implementation stage.",
-          "es": "(Optional) Whether the data source includes data related to the implementation stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de implementación."
         },
         "example": {
           "en": "Yes",
@@ -170,7 +170,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the completion stage.",
-          "es": "(Optional) Whether the data source includes data related to the completion stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de finalización."
         },
         "example": {
           "en": "No",
@@ -185,7 +185,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the maintenance stage.",
-          "es": "(Optional) Whether the data source includes data related to the maintenance stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de mantenimiento."
         },
         "example": {
           "en": "Yes",
@@ -200,7 +200,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the decommissioning stage.",
-          "es": "(Optional) Whether the data source includes data related to the decommissioning stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de desmantelamiento."
         },
         "example": {
           "en": "Yes",
@@ -215,7 +215,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source stores documents, like the PDF version of a signed contract.",
-          "es": "(Optional) Whether the data source stores documents, like the PDF version of a signed contract."
+          "es": "(Opcional) Si la fuente de datos almacena documentos, como la versión en PDF de un contrato firmado."
         },
         "example": {
           "en": "Yes",
@@ -230,7 +230,7 @@
         },
         "note": {
           "en": "(Optional) The access methods and publication formats via which the data in the data source is accessed, e.g. public JSON API.",
-          "es": "(Optional) The access methods and publication formats via which the data in the data source is accessed, e.g. public JSON API."
+          "es": "(Opcional) Los métodos de acceso y formatos de publicación a través de los cuales se accede a los datos de la fuente de datos, por ejemplo, la API JSON pública."
         },
         "example": {
           "en": "Public JSON API",
@@ -257,7 +257,7 @@
         },
         "note": {
           "en": "A unique identifier for this data element, composed of the element's data source, section and name.",
-          "es": "A unique identifier for this data element, composed of the element's data source, section and name."
+          "es": "Un identificador único para este elemento de datos, compuesto por la fuente de datos, la sección y el nombre del elemento."
         },
         "example": {
           "en": "inframonitor.projects.region",
@@ -272,7 +272,7 @@
         },
         "note": {
           "en": "The data source for this data element.",
-          "es": "The data source for this data element."
+          "es": "La fuente de datos para este elemento de datos."
         },
         "example": {
           "en": "inframonitor",
@@ -287,7 +287,7 @@
         },
         "note": {
           "en": "The section, or table, of the data source in which this element is located.",
-          "es": "The section, or table, of the data source in which this element is located."
+          "es": "La sección, o tabla, de la fuente de datos en la que se encuentra este elemento."
         },
         "example": {
           "en": "t_projects",
@@ -302,7 +302,7 @@
         },
         "note": {
           "en": "A name for this data element. The name must be unique within the data element's section.",
-          "es": "A name for this data element. The name must be unique within the data element's section."
+          "es": "Un nombre para este elemento de datos. El nombre debe ser único dentro de la sección del elemento de datos."
         },
         "example": {
           "en": "region",
@@ -317,7 +317,7 @@
         },
         "note": {
           "en": "(Optional) An example value for this data element.",
-          "es": "(Optional) An example value for this data element."
+          "es": "(Opcional) Un valor de ejemplo para este elemento de datos."
         },
         "example": {
           "en": "North",
@@ -332,7 +332,7 @@
         },
         "note": {
           "en": "(Optional) A description of the meaning of this data element.",
-          "es": "(Optional) A description of the meaning of this data element."
+          "es": "(Opcional) Una descripción del significado de este elemento de datos."
         },
         "example": {
           "en": "The region in which the project will be implemented",
@@ -347,7 +347,7 @@
         },
         "note": {
           "en": "(Optional) The data type of this data element.",
-          "es": "(Optional) The data type of this data element."
+          "es": "(Opcional) El tipo de datos de este elemento de datos."
         },
         "example": {
           "en": "string",
@@ -362,7 +362,7 @@
         },
         "note": {
           "en": "(Optional) Notes about this data element, for example whether it is a mandatory field or a description of any data quality issues.",
-          "es": "(Optional) Notes about this data element, for example whether it is a mandatory field or a description of any data quality issues."
+          "es": "(Opcional) Notas sobre este elemento de datos, por ejemplo, si es un campo obligatorio o una descripción de cualquier cuestión de calidad de los datos."
         },
         "example": {
           "en": "mandatory field, value selected from drop down list",
@@ -377,7 +377,7 @@
         },
         "note": {
           "en": "The OC4IDS fields to which this data element is mapped.",
-          "es": "The OC4IDS fields to which this data element is mapped."
+          "es": "Los campos OC4IDS a los que se asigna este elemento de datos."
         },
         "example": {
           "en": "",
@@ -404,7 +404,7 @@
         },
         "note": {
           "en": "The CoST IDS module to which this element belongs.",
-          "es": "The CoST IDS module to which this element belongs."
+          "es": "El módulo del CoST IDS al que pertenece este elemento."
         }
       },
       {
@@ -415,7 +415,7 @@
         },
         "note": {
           "en": "Whether the element relates to the project level or contract level of the CoST IDS.",
-          "es": "Whether the element relates to the project level or contract level of the CoST IDS."
+          "es": "Si el elemento se refiere al nivel de proyecto o al nivel de contrato del CoST IDS."
         }
       },
       {
@@ -426,7 +426,7 @@
         },
         "note": {
           "en": "The stage of infrastructure project to which the element relates.",
-          "es": "The stage of infrastructure project to which the element relates."
+          "es": "La etapa del proyecto de infraestructura a la que se refiere el elemento."
         }
       },
       {
@@ -437,7 +437,7 @@
         },
         "note": {
           "en": "The title of the element.",
-          "es": "The title of the element."
+          "es": "El título del elemento."
         }
       },
       {
@@ -448,7 +448,7 @@
         },
         "note": {
           "en": "The description of the element.",
-          "es": "The description of the element."
+          "es": "La descripción del elemento."
         }
       },
       {
@@ -459,7 +459,7 @@
         },
         "note": {
           "en": "The OC4IDS fields to which the element relates.",
-          "es": "The OC4IDS fields to which the element relates."
+          "es": "Los campos del OC4IDS con los que se relaciona el elemento."
         }
       },
       {
@@ -470,7 +470,7 @@
         },
         "note": {
           "en": "Whether you want to map the OC4IDS fields related to this element.",
-          "es": "Whether you want to map the OC4IDS fields related to this element."
+          "es": "Si desea asignar los campos del OC4IDS relacionados con este elemento."
         }
       }
     ]

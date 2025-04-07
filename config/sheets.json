@@ -2,11 +2,11 @@
   "readme": {
     "title": {
       "en": "README",
-      "es": "README"
+      "es": "LEÁME"
     },
     "subtitle": {
       "en": "To learn about the template and how to use it, read the README: https://github.com/OpenDataServices/oc4ids-mapping-template/blob/main/README.md",
-      "es": "To learn about the template and how to use it, read the README: https://github.com/OpenDataServices/oc4ids-mapping-template/blob/main/README.md"
+      "es": "Para aprender acerca de esta plantilla y como usarla, revise el LEÁME: https://github.com/OpenDataServices/oc4ids-mapping-template/blob/main/README.md"
     },
     "columns": [
       {
@@ -20,11 +20,11 @@
   "sources": {
     "title": {
       "en": "(Source) 1. Data sources",
-      "es": "(Source) 1. Data sources"
+      "es": "(Fuente) 1.Fuentes de los datos"
     },
     "subtitle": {
       "en": "Use this sheet to list the data sources for your OC4IDS implementation. Your data sources might be IT systems, like a project database; spreadsheets; or even paper records. An example is provided in the first row. You can use the OC4IDS Scoping Template to help you identify your data sources.",
-      "es": "Use this sheet to list the data sources for your OC4IDS implementation. Your data sources can be IT systems, like a project database; spreadsheets; or even paper records. An example is provided in the first row. You can use the OC4IDS Scoping Template to help you identify your data sources."
+      "es": "Use esta hoja para enlistar las fuentes de los datos  para su implementación del OC4IDS. Sus fuentes de datos pueden ser sistemas IT, como bases de datos de proyectos; hojas de cálculo; o incluso archivos en papel. Un ejemplo es proveído en la primera fila. Puede utilizar la Plantilla de Alcance del OC4IDS para ayudarle a identificar las fuentes de los datos."
     },
     "columns": [
       {
@@ -35,7 +35,7 @@
         },
         "note": {
           "en": "A short identifier for this data source. The identifier is used to construct a unique identifier for each data element in the '(Source) 2. Data elements' sheet.",
-          "es": "A short identifier for this data source. The identifier is used to construct a unique identifier for each data element in the '(Source) 2. Data elements' sheet."
+          "es": "Un identificador corto para esta fuente de datos. El identificador se utiliza para construir un identificador único para cada elemento de datos en la hoja '(Fuente) 2.Hoja de elementos de datos."
         },
         "example": {
           "en": "inframonitor",
@@ -50,11 +50,11 @@
         },
         "note": {
           "en": "A name for this data source.",
-          "es": "A name for this data source."
+          "es": "Un nombre para esta fuente de datos."
         },
         "example": {
           "en": "Infrastructure Monitoring System",
-          "es": "Infrastructure Monitoring System"
+          "es": "Sistema de Monitoreo de Infraestructura"
         }
       },
       {
@@ -65,7 +65,7 @@
         },
         "note": {
           "en": "(Optional) If the data source is an IT system purchased from a 3rd party vendor, the name of the vendor.",
-          "es": ""
+          "es": "(Opcional) Si la fuente de datos es un sistema informático adquirido a un proveedor externo, el nombre del proveedor."
         },
         "example": {
           "en": "Microsoft",
@@ -80,7 +80,7 @@
         },
         "note": {
           "en": "(Optional) A link to the data source or its documentation.",
-          "es": "(Optional) A link to the data source or its documentation."
+          "es": "(Opcional) Un enlace a la fuente de datos o su documentación."
         },
         "example": {
           "en": "http://inframonitor.gov.example",
@@ -95,11 +95,11 @@
         },
         "note": {
           "en": "(Optional) The organization or department that is responsible for the data source.",
-          "es": "(Optional) The organization or department that is responsible for the data source."
+          "es": "(Opcional) La organización o departamento responsable de la fuente de datos."
         },
         "example": {
           "en": "Public Works Ministry",
-          "es": "Public Works Ministry"
+          "es": "Ministerio de Obras Públicas"
         }
       },
       {
@@ -110,7 +110,7 @@
         },
         "note": {
           "en": "Whether the data source includes data related to the identification stage.",
-          "es": ""
+          "es": "Si la fuente de datos incluye datos relacionados con la etapa de identificación."
         },
         "example": {
           "en": "No",
@@ -125,7 +125,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the preparation stage.",
-          "es": "(Optional) Whether the data source includes data related to the preparation stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de preparación."
         },
         "example": {
           "en": "No",
@@ -140,11 +140,11 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the procurement stage.",
-          "es": "(Optional) Whether the data source includes data related to the procurement stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de adquisición."
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
@@ -155,11 +155,11 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the implementation stage.",
-          "es": "(Optional) Whether the data source includes data related to the implementation stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de implementación."
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
@@ -170,7 +170,7 @@
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the completion stage.",
-          "es": "(Optional) Whether the data source includes data related to the completion stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de finalización."
         },
         "example": {
           "en": "No",
@@ -181,30 +181,30 @@
         "width": 130,
         "header": {
           "en": "Maintenance",
-          "es": "Maintenance"
+          "es": "Mantenimiento"
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the maintenance stage.",
-          "es": "(Optional) Whether the data source includes data related to the maintenance stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de mantenimiento."
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
         "width": 130,
         "header": {
           "en": "Decommissioning",
-          "es": "Decommissioning"
+          "es": "Desmantelamie"
         },
         "note": {
           "en": "(Optional) Whether the data source includes data related to the decommissioning stage.",
-          "es": "(Optional) Whether the data source includes data related to the decommissioning stage."
+          "es": "(Opcional) Si la fuente de datos incluye datos relacionados con la etapa de desmantelamiento."
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
@@ -215,11 +215,11 @@
         },
         "note": {
           "en": "(Optional) Whether the data source stores documents, like the PDF version of a signed contract.",
-          "es": "(Optional) Whether the data source stores documents, like the PDF version of a signed contract."
+          "es": "(Opcional) Si la fuente de datos almacena documentos, como la versión en PDF de un contrato firmado."
         },
         "example": {
           "en": "Yes",
-          "es": "Yes"
+          "es": "Si"
         }
       },
       {
@@ -230,11 +230,11 @@
         },
         "note": {
           "en": "(Optional) The access methods and publication formats via which the data in the data source is accessed, e.g. public JSON API.",
-          "es": "(Optional) The access methods and publication formats via which the data in the data source is accessed, e.g. public JSON API."
+          "es": "(Opcional) Los métodos de acceso y formatos de publicación a través de los cuales se accede a los datos de la fuente de datos, por ejemplo, la API JSON pública."
         },
         "example": {
           "en": "Public JSON API",
-          "es": "Public JSON API"
+          "es": "API publica con JSON"
         }
       }
     ]
@@ -257,7 +257,7 @@
         },
         "note": {
           "en": "A unique identifier for this data element, composed of the element's data source, section and name.",
-          "es": "A unique identifier for this data element, composed of the element's data source, section and name."
+          "es": "Un identificador único para este elemento de datos, compuesto por la fuente de datos, la sección y el nombre del elemento."
         },
         "example": {
           "en": "inframonitor.projects.region",
@@ -272,7 +272,7 @@
         },
         "note": {
           "en": "The data source for this data element.",
-          "es": "The data source for this data element."
+          "es": "La fuente de datos para este elemento de datos."
         },
         "example": {
           "en": "inframonitor",
@@ -287,7 +287,7 @@
         },
         "note": {
           "en": "The section, or table, of the data source in which this element is located.",
-          "es": "The section, or table, of the data source in which this element is located."
+          "es": "La sección, o tabla, de la fuente de datos en la que se encuentra este elemento."
         },
         "example": {
           "en": "t_projects",
@@ -302,7 +302,7 @@
         },
         "note": {
           "en": "A name for this data element. The name must be unique within the data element's section.",
-          "es": "A name for this data element. The name must be unique within the data element's section."
+          "es": "Un nombre para este elemento de datos. El nombre debe ser único dentro de la sección del elemento de datos."
         },
         "example": {
           "en": "region",
@@ -317,7 +317,7 @@
         },
         "note": {
           "en": "(Optional) An example value for this data element.",
-          "es": "(Optional) An example value for this data element."
+          "es": "(Opcional) Un valor de ejemplo para este elemento de datos."
         },
         "example": {
           "en": "North",
@@ -332,7 +332,7 @@
         },
         "note": {
           "en": "(Optional) A description of the meaning of this data element.",
-          "es": "(Optional) A description of the meaning of this data element."
+          "es": "(Opcional) Una descripción del significado de este elemento de datos."
         },
         "example": {
           "en": "The region in which the project will be implemented",
@@ -347,7 +347,7 @@
         },
         "note": {
           "en": "(Optional) The data type of this data element.",
-          "es": "(Optional) The data type of this data element."
+          "es": "(Opcional) El tipo de datos de este elemento de datos."
         },
         "example": {
           "en": "string",
@@ -362,7 +362,7 @@
         },
         "note": {
           "en": "(Optional) Notes about this data element, for example whether it is a mandatory field or a description of any data quality issues.",
-          "es": "(Optional) Notes about this data element, for example whether it is a mandatory field or a description of any data quality issues."
+          "es": "(Opcional) Notas sobre este elemento de datos, por ejemplo, si es un campo obligatorio o una descripción de cualquier cuestión de calidad de los datos."
         },
         "example": {
           "en": "mandatory field, value selected from drop down list",
@@ -377,7 +377,7 @@
         },
         "note": {
           "en": "The OC4IDS fields to which this data element is mapped.",
-          "es": "The OC4IDS fields to which this data element is mapped."
+          "es": "Los campos OC4IDS a los que se asigna este elemento de datos."
         },
         "example": {
           "en": "",
@@ -389,88 +389,88 @@
   "ids": {
     "title": {
       "en": "(CoST) IDS Elements",
-      "es": "(CoST) IDS Elements"
+      "es": "(CoST) Elementos del IDS"
     },
     "subtitle": {
       "en": "Optionally, use this sheet to select the CoST IDS elements that you want to map. You can filter the (OC4IDS) mapping sheets to show only fields related to your selected elements.",
-      "es": "Optionally, use this sheet to select the CoST IDS elements that you want to map. You can filter the (OC4IDS) mapping sheets to show only fields related to your selected elements."
+      "es": "Opcionalmente, use esta hoja para seleccionar los elementos del CoST IDS que quiere mapear. Puede filtrar las hojas del mapeo (OC4IDS) para mostrar solo los campos relacionados con los elementos seleccionados."
     },
     "columns": [
       {
         "width": 250,
         "header": {
           "en": "Module",
-          "es": "Module"
+          "es": "Módulo"
         },
         "note": {
           "en": "The CoST IDS module to which this element belongs.",
-          "es": "The CoST IDS module to which this element belongs."
+          "es": "El módulo del CoST IDS al que pertenece este elemento."
         }
       },
       {
         "width": 100,
         "header": {
           "en": "Level",
-          "es": "Level"
+          "es": "Nivel"
         },
         "note": {
           "en": "Whether the element relates to the project level or contract level of the CoST IDS.",
-          "es": "Whether the element relates to the project level or contract level of the CoST IDS."
+          "es": "Si el elemento se refiere al nivel de proyecto o al nivel de contrato del CoST IDS."
         }
       },
       {
         "width": 100,
         "header": {
           "en": "Stage",
-          "es": "Stage"
+          "es": "Fase"
         },
         "note": {
           "en": "The stage of infrastructure project to which the element relates.",
-          "es": "The stage of infrastructure project to which the element relates."
+          "es": "La etapa del proyecto de infraestructura a la que se refiere el elemento."
         }
       },
       {
         "width": 150,
         "header": {
           "en": "Title",
-          "es": "Title"
+          "es": "Título"
         },
         "note": {
           "en": "The title of the element.",
-          "es": "The title of the element."
+          "es": "El título del elemento."
         }
       },
       {
         "width": 300,
         "header": {
           "en": "Description",
-          "es": "Description"
+          "es": "Descripción"
         },
         "note": {
           "en": "The description of the element.",
-          "es": "The description of the element."
+          "es": "La descripción del elemento."
         }
       },
       {
         "width": 300,
         "header": {
           "en": "Fields",
-          "es": "Fields"
+          "es": "Campos"
         },
         "note": {
           "en": "The OC4IDS fields to which the element relates.",
-          "es": "The OC4IDS fields to which the element relates."
+          "es": "Los campos del OC4IDS con los que se relaciona el elemento."
         }
       },
       {
         "width": 100,
         "header": {
           "en": "Map",
-          "es": "Map"
+          "es": "Mapeo"
         },
         "note": {
           "en": "Whether you want to map the OC4IDS fields related to this element.",
-          "es": "Whether you want to map the OC4IDS fields related to this element."
+          "es": "Si desea asignar los campos del OC4IDS relacionados con este elemento."
         }
       }
     ]
@@ -483,7 +483,7 @@
     },
     "subtitle": {
       "en": "Use this sheet to map your data elements to project-level OC4IDS fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `documents/title`, you must map `documents/id`.",
-      "es": "Use this sheet to map your data elements to project-level OC4IDS fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `documents/title`, you must map `documents/id`."
+      "es": "Use esta hoja para mapear los elementos a nivel de proyecto de los campos del OC4IDS. El campo en el esquema del OC4IDS, que cada fila representa, es identificado por su puntero de JSON. Los objetos están coloreados en gris y no necesitan ser mapeados directamente. Los campos requeridos están coloreados en rojo. Si usted mapea un campo en un objeto, usted debe mapear todos los campos requeridos que pertencen al mismo objeto.  Por ejemplo, si usted mapea `documents/title`, usted debe mapear `documents/id`."
     }
   },
   "contracts": {
@@ -494,7 +494,7 @@
     },
     "subtitle": {
       "en": "Use this sheet to map your data elements to OC4IDS contracting process fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `contractingProcesses/summary/documents/title`, you must map `contractingProcesses/summary/documents/id`.",
-      "es": "Use this sheet to map your data elements to OC4IDS contracting process fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `contractingProcesses/summary/documents/title`, you must map `contractingProcesses/summary/documents/id`."
+      "es": "Use esta hoja para mapear los elementos de datos a los campos del proceso de contratación del OC4IDS. El campo en el esquema del OC4IDS, que cada fila representa, es identificado por su puntero JSON. Los objetos están coloreados en gris y no necesitan ser mapeados directamente. Los campos requeridos están mapeados en rojo. Si usted mapea un campo en un objeto, usted debe mapear todos los campos requeridos que pertececen al mismo objeto. Por ejemplo, si usted mapea `contractingProcesses/summary/documents/title`, usted debe mapear `contractingProcesses/summary/documents/id`."
     }
   },
   "releases": {
@@ -505,7 +505,7 @@
     },
     "subtitle": {
       "en": "Use this sheet to map your data elements to OC4IDS linked release fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `documents/title`, you must map `documents/id`.",
-      "es": "Use this sheet to map your data elements to OC4IDS linked release fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `documents/title`, you must map `documents/id`."
+      "es": "Use esta hoja para mapear sus elementos de datos a los campos vinculados a las entregas del OC4IDS. El campo en el esquema del OC4IDS, que cada fila representa es identificada por su puntero del  JSON. Los objetos están coloreados en gris y no necesitan ser mapeados directamente. Los campos requeridos están mapeados en rojo. Si usted mapea un campo en un objeto, usted debe mapear  todo los campos requeridos que pertencen al mismo objeto. Por ejemplo, si usted mapea `documents/title`, usted debe mapear `documents/id`."
     }
   },
   "parties": {
@@ -516,7 +516,7 @@
     },
     "subtitle": {
       "en": "Use this sheet to map your data elements to OC4IDS parties fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. The fields in the parties array are repeated for each organization reference in the schema so that you can document different mappings for the different organization roles covered by the standard. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `parties/beneficialOwners/name`, you must map `parties/beneficialOwners/id`.",
-      "es": "Use this sheet to map your data elements to OC4IDS parties fields. The field in the OC4IDS schema that each row represents is identified by its JSON pointer. The fields in the parties array are repeated for each organization reference in the schema so that you can document different mappings for the different organization roles covered by the standard. Objects are colored grey and do not need to be mapped directly. Required fields are colored red. If you map a field in an object, you must map all required fields that belong to the same object. For example, if you map `parties/beneficialOwners/name`, you must map `parties/beneficialOwners/id`."
+      "es": "Use esta hoja para mapear los elementos de datos a los campos de partes del  OC4IDS. El campo en el esquema del OC4IDS, que cada fila representa, es identificado por su puntero del JSON. Los campos en la matriz de partes son repetidos para cada organización referente en el esquema, por lo aue usted puede documentar diferentes mapeos para los diferentes roles de las organizaciones cubiertas por el estándar. Los objetos están coloreados en gris y no necesitan ser mapeados directamente. Los campos requeridos están coloreados en rojo.  Si usted mapea un campo en un objeto, usted debe mapear todos los campos requeridos que pertencen al mismo objeto. Por ejemplo, si usted mapea `parties/beneficialOwners/name`, usted debe mapear`parties/beneficialOwners/id`."
     }
   }
 }

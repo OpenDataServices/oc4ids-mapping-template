@@ -124,8 +124,8 @@ def create_template(version, staging, language, compatibility):
             sheet["columns"] = mapping_columns
 
     # Get dereferenced schema
-    base_url = f"https://standard.open-contracting.org/{'staging/' if staging else ''}/infrastructure/{version}/{language}/_static"
-    schema_url = f"{base_url}/project-level/project-schema.json"
+    base_url = f"https://standard.open-contracting.org/{'staging/' if staging else ''}/infrastructure/{version}/{language}"
+    schema_url = f"{base_url}/project-schema.json"
     schema = get(schema_url).json()
     schema = jsonref.JsonRef.replace_refs(schema, base_uri=schema_url)
 
@@ -247,7 +247,7 @@ def create_template(version, staging, language, compatibility):
                 mapping_level = "project" if "project" in mapping_name else "process"
                 mapping_stage = mapping_name[-1]
 
-                reader = csv_reader(f"{base_url}/project-level/{filename}")
+                reader = csv_reader(f"{base_url}/{filename}")
                 next(reader, None)
 
                 for element in reader:
